@@ -1,0 +1,1 @@
+.\ngrok.exe  http -subdomain=<subdomain in subdomain.ngrok.io> https://localhost:5001
