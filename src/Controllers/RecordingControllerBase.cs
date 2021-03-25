@@ -19,7 +19,7 @@ namespace dotnet.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Post()
+        public virtual async Task<IActionResult> Post()
         {
             await this.ReadReqestAndLogAsync(MethodBase.GetCurrentMethod());
             return this.Ok();
